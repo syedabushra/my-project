@@ -25,6 +25,6 @@ jobs:
 
       - name: Code Linting
         run: |
-          flake8  # Replace with your linting command
+          flake8 .
 
 # Add additional steps for other stages of your pipeline, e.g., testing, deployment, etc.
