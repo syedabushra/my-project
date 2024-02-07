@@ -25,7 +25,7 @@ jobs:
 
       - name: Code Linting
         run: |
-          flake8
-          
+          pylint
+
 
 # Add additional steps for other stages of your pipeline, e.g., testing, deployment, etc.
